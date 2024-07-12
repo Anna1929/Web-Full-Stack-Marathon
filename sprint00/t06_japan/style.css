@@ -1,0 +1,6 @@
+.japan {
+    height: 200px;
+    width: 300px;
+    border: 2px solid grey;
+    background: radial-gradient(circle, rgb(174, 35, 51) 32%, white 32%);
+}

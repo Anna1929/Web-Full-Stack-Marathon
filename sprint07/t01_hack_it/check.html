@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Check</title>
+        <meta name="description" content="t01. Hack it">
+    </head>
+    <body>
+        <h1>Password</h1>
+        <form action="/hack" method="POST" >
+            <p>Password saved at session.</p>
+            <p>Try to guess:<input type="text" name="text"
+                                   placeholder="Password to session"><button type="submit">Check password</button></p>
+        </form>
+        <button onclick="location.href='/loginAgain'">Clear</button>
+    </body>
+</html>

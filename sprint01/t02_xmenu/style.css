@@ -1,0 +1,79 @@
+h1 {
+    color: red;
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffe369;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bodoni MT", serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav {
+    background: rgb(250, 191, 110);
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    position: relative;
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px 40px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background: orangered;
+    color: black;
+    box-shadow: 0 0 10px black;
+}
+
+nav ul li ul {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background: rgb(196, 117, 4);
+    visibility: hidden;
+    opacity: 0;
+    transform: translate(0, 20px);
+    transition: .3s;
+
+}
+nav ul li:hover > ul {
+    visibility: visible;
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+nav ul li ul li {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+nav ul li ul li a {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+nav ul li ul li ul {
+    left: 100%;
+    top: 0;
+}
+

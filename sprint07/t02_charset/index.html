@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Charset Conversion</title>
+    <meta name="description" content="Charset Conversion">
+</head>
+<body>
+<h1>Charset Conversion</h1>
+<form action="/charset" method="POST" >
+    <p>Input string:<input type="text" name="inputString" placeholder="Input string"></p>
+    <p>Select charset:
+        <select name="charset">
+            <option value="utf8">UTF-8</option>
+            <option value="ascii">ASCII</option>
+            <option value="base64">Base64</option>
+        </select>
+    </p>
+    <button type="submit">Change charset</button>
+    <button onclick="location.href='/clear'">Clear</button>
+</form>
+<p>Output string: <%= outputString %></p>
+</body>
+</html>

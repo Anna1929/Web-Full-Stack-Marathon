@@ -1,0 +1,81 @@
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: #ffe369;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+
+
+.subtopics div,
+.subtopics1 div {
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 10px;
+    background: white;
+}
+
+.topics,
+.subtopics,
+.subtopics1 {
+    display: grid;
+    grid-gap: 20px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    .subtopics,
+    .subtopics1 {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .subtopics {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .subtopics1 {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .subtopics {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .subtopics1 {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+#col {
+    color: red;
+}
+
+#bord {
+    border: 1px solid black;
+}
+
+#family {
+    font-family: Arial, sans-serif;
+}
+
+#size {
+    font-size: 20px;
+}
+
+#back {
+    background: yellow;
+}
+
+#shadow {
+    text-shadow: 2px 2px 2px black;
+}

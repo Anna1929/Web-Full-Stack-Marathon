@@ -1,0 +1,30 @@
+.buttons {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.buttons .add {
+    background-color: #5a8de1;
+    color: white;
+    margin-right: 300px;
+    padding: 10px;
+
+    border: none;
+    cursor: pointer;
+}
+
+.buttons .clear {
+    margin-left: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.notes {
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 40%;
+}

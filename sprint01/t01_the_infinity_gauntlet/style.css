@@ -1,0 +1,14 @@
+img {
+    height: 50px;
+}
+
+.hand {
+    height: 200px;
+}
+
+.hand:hover + .person .person_row:nth-child(even) img:nth-child(even),
+.hand:hover + .person .person_row:nth-child(odd) img:nth-child(odd) {
+    visibility: hidden;
+}
+
+

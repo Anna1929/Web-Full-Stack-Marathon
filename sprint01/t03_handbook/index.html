@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Handbook</title>
+        <meta name="description" content="t04. Handbook">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>Handbook</h1>
+        <h2>Contents</h2>
+        <section>
+            <div class="topics">
+                <div>
+                    <ul>
+                        <li><h3><a href="#html">HTML</a></h3>
+                            <ul>
+                                <li><a href="#p">p</a></li>
+                                <li><a href="#h1">h1</a>
+                                <li><a href="#b">b</a></li>
+                                <li><a href="#ul">ul</a></li>
+                                <li><a href="#ol">ol</a></li>
+                                <li><a href="#table">table</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <ul>
+                        <li><h3><a href="#css">CSS</a></h3>
+                            <ul>
+                                <li><a href="#color">color</a></li>
+                                <li><a href="#border">border</a>
+                                <li><a href="#font-family">font-family</a></li>
+                                <li><a href="#font-size">font-size</a></li>
+                                <li><a href="#background">background</a></li>
+                                <li><a href="#text-shadow">text-shadow</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <ul>
+                        <li><h3><a href="#protocols">PROTOCOLS</a></h3>
+                            <ul>
+                                <li><a href="#description">description</a></li>
+                                <li><a href="#HTTP/HTTPS">HTTP/HTTPS</a>
+                                <li><a href="#DNS">DNS</a></li>
+                                <li><a href="#IP">IP</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <h2 id="html">HTML</h2>
+         <section>
+             <div class="subtopics">
+                 <div id="p">
+                     <h3>p</h3>
+                     <p>
+                         If we want a line to appear as such, we
+                         can define it as a "paragraph" by enclosing
+                         it in paragraph element tags.<br>
+                         <code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code><br>
+                     </p>
+
+                     <p>This is a paragraph.</p>
+                 </div>
+
+                 <div id="h1">
+                     <h3>h1</h3>
+                     <p>
+                         The "h1" element is used to define the most
+                         important heading on the page.<br>
+                         <code>&lt;h1&gt;This is a...&lt;/h1&gt;</code><br>
+                     </p>
+
+                     <h2>This is a...</h2>
+                 </div>
+
+                 <div id="b">
+                     <h3>b</h3>
+                     <p>
+                         The "b" element is used to bold text.<br>
+                         <code>&lt;b&gt;Text&lt;/b&gt;</code><br>
+                     </p>
+
+                    <p><b>Text</b></p>
+                 </div>
+
+                 <div id="ul">
+                     <h3>ul</h3>
+                     <p>
+                         The "ul" element is used to create an unordered list.
+                         Unordered lists are used for items for which
+                         the order doesn't matter.<br>
+                         <code>
+                             &lt;ul&gt;<br>
+                             &lt;li&gt;Cat&lt;/li&gt;<br>
+                             &lt;li&gt;Dog&lt;/li&gt;<br>
+                             &lt;/ul&gt;
+                         </code><br>
+                     </p>
+                     <ul>
+                         <li>Cat</li>
+                         <li>Dog</li>
+                     </ul>
+                 </div>
+
+                 <div id="ol">
+                     <h3>ol</h3>
+                     <p>
+                         The "ol" element is used to create an ordered list.
+                         Ordered lists are used for items that should be in a
+                         specific order.<br>
+                         <code>
+                             &lt;ol&gt;<br>
+                             &lt;li&gt;Cat&lt;/li&gt;<br>
+                             &lt;li&gt;Dog&lt;/li&gt;<br>
+                             &lt;/ol&gt;
+                         </code><br>
+                     </p>
+
+                     <ol>
+                         <li>Cat</li>
+                         <li>Dog</li>
+                     </ol>
+                 </div>
+
+                 <div id="table">
+                     <h3>table</h3>
+                     <p>
+                         The "table" element is used to create a table.<br>
+                         <code>&lt;table&gt;...&lt;/table&gt;</code><br>
+                     </p>
+
+                     <table>
+                         <tr>
+                             <td>Cat</td>
+                             <td>Dog</td>
+                         </tr>
+                         <tr>
+                             <td>Mouse</td>
+                             <td>Parrot</td>
+                         </tr>
+                     </table>
+                 </div>
+             </div>
+         </section>
+
+        <h2 id="css">CSS</h2>
+        <section>
+            <div class="subtopics">
+                <div id="color">
+                    <h3>color</h3>
+                    <p>
+                        The "color" property is used to set the color of the text.<br>
+                        <code>color: red;</code><br>
+                    </p>
+
+                    <p id="col">Text</p>
+                </div>
+
+                <div id="border">
+                    <h3>border</h3>
+                    <p>
+                        The "border" property is used to set the border of an element.<br>
+                        <code>border: 1px solid black;</code><br>
+                    </p>
+
+                    <p id="bord">Text</p>
+                </div>
+
+                <div id="font-family">
+                    <h3>font-family</h3>
+                    <p>
+                        The "font-family" property is used to set the font of the text.<br>
+                        <code>font-family: Arial;</code><br>
+                    </p>
+
+                    <p id="family">Text</p>
+                </div>
+
+                <div id="font-size">
+                    <h3>font-size</h3>
+                    <p>
+                        The "font-size" property is used to
+                        set the size of the text.<br>
+                        <code>font-size: 20px;</code><br>
+                    </p>
+
+                    <p id="size">Text</p>
+                </div>
+
+                <div id="background">
+                    <h3>background</h3>
+                    <p>
+                        The "background" property is used to set
+                        the background of an element.<br>
+                        <code>background: yellow;</code><br>
+                    </p>
+
+                    <p id="back">Text</p>
+                </div>
+
+                <div id="text-shadow">
+                    <h3>text-shadow</h3>
+                    <p>
+                        The "text-shadow" property is used
+                        to add shadow to the text.<br>
+                        <code>text-shadow: 2px 2px 2px black;</code><br>
+                    </p>
+
+                    <p id="shadow">Text</p>
+                </div>
+            </div>
+
+        </section>
+
+        <h2 id="protocols">PROTOCOLS</h2>
+        <section>
+            <div class="subtopics1">
+                <div id="description">
+                    <h3>Description</h3>
+                    <p>
+                        Protocols are a set of rules that determine
+                        how data is transmitted between devices.<br>
+                    </p>
+                </div>
+
+                <div id="HTTP/HTTPS">
+                    <h3>HTTP/HTTPS</h3>
+                    <p>
+                        <b>Methods:</b><br>
+                        GET requests a representation of the specified resource.<br>
+                        POST submits data to be processed to a specified resource.<br>
+                        PUT uploads a representation of the specified resource.<br>
+                        DELETE deletes the specified resource.<br>
+                        PATCH is used to apply partial modifications to a resource.<br>
+                    </p>
+
+                    <p>
+                        <b>Status code</b><br>
+                        1xx: Informational<br>
+                        example: 100 Continue<br>
+                        2xx: Success<br>
+                        example: 201 Created<br>
+                        3xx: Redirection<br>
+                        example: 301 Moved Permanently<br>
+                        4xx: Client Error<br>
+                        example: 404 Not Found<br>
+                        5xx: Server Error<br>
+                        example: 500 Internal Server Error
+                    </p>
+                </div>
+
+                <div id="DNS">
+                    <h3>DNS</h3>
+                    <p>
+                        A - Address record. It is used to map domain names to IP addresses.<br>
+                        AAAA - IPv6 address record. It maps a domain name to an IPv6 address.<br>
+                        CNAME - Canonical name record. It is used to alias one name to another.<br>
+                        HINFO - Host information record. It is used to provide information about the host.<br>
+                        ISDN - ISDN address record. It is used to provide ISDN information.<br>
+                        MX - Mail exchange record. It is used in routing email.<br>
+                        NS - Name server record. It delegates a DNS zone to use the given authoritative name servers.<br>
+                        PTR - Pointer record. It is used for reverse DNS lookups.<br>
+                        SOA - Start of authority record. It specifies authoritative information about a DNS zone.<br>
+                        TXT - Text record. It is used to store text-based information.
+                    </p>
+                </div>
+
+                <div id="IP">
+                    <h3>IP</h3>
+                    <p>
+                        To identify google.com IP, follow these steps:<br>
+                        1. Open Terminal.<br>
+                        2. paste the command: <code>nslookup google.com</code><br>
+                        As a result, you will receive name and address:<br>
+                        Name: google.com<br>
+                        Address:216.58.215.99<br>
+                        Repeat steps 1 and 2 to identify google.com.ua IP.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

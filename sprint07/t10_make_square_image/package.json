@@ -1,0 +1,7 @@
+{
+  "name": "t10_make_square_image",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

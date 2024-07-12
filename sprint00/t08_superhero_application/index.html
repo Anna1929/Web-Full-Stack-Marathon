@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Superhero Application</title>
+        <meta name="description" content="t08. Superhero Application">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>Superhero Form</h1>
+        <form>
+            <fieldset>
+                <legend>About the Superhero</legend>
+                <p>
+                    <label for="realName">Real Name:</label>
+                    <input type="text" id="realName" placeholder="Superhero real name"
+                           size="15" autofocus required>
+                    <label for="heroName">Superhero Name</label>
+                    <input type="text" id="heroName" placeholder="Superhero alias" size="15">
+                    <label for="age">Age</label>
+                    <input type="number" id="age" min="1" max="999" step="1"><br><br>
+                    <label for="about">About</label>
+                    <textarea id="about" rows="5" cols="70" maxlength="500"
+                              placeholder="Information about the superhero, max 500 symbols"></textarea><br><br>
+                    <label for="photo">Photo:</label>
+                    <input type="file" id="photo" name="photo">
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Powers</legend>
+                <p>
+                    <input type="checkbox" id="telekinesis">
+                    <label for="telekinesis">Telekinesis</label>
+                    <input type="checkbox" id="superStrength">
+                    <label for="superStrength">Super strength or speed</label>
+                    <input type="checkbox" id="shapeshifting">
+                    <label for="shapeshifting">Shapeshifting</label>
+                    <input type="checkbox" id="flight">
+                    <label for="flight">Flight</label>
+                    <input type="checkbox" id="control">
+                    <label for="control">Elemental control</label>
+                    <input type="checkbox" id="other">
+                    <label for="other">Other</label>
+                </p>
+                <p>
+                    <label for="levelControl">Level of control:</label>
+                    <input type="range" id="levelControl" min="0" max="10" step="1" value="1">
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Origin of Powers</legend>
+                <p>
+                    <input type="radio" id="unknown">
+                    <label for="unknown">Unknown</label>
+                    <input type="radio" id="accident">
+                    <label for="accident">Freak lab accident</label>
+                    <input type="radio" id="accident2">
+                    <label for="accident2">Chosen by an ancient wise being</label>
+                    <input type="radio" id="notHuman">
+                    <label for="notHuman">The superhero is not human</label>
+                    <input type="radio" id="otherOrigin">
+                    <label for="otherOrigin">Other</label>
+                </p>
+            </fieldset>
+
+            <p>
+                <button type="reset">CLEAR</button>
+                <button type="submit">SEND</button>
+            </p>
+        </form>
+    </body>
+</html>

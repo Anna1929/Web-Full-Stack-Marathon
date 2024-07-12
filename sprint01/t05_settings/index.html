@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Settings</title>
+        <meta name="description" content="t04. Settings">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>Settings</h1>
+        <form>
+            <div class="main">
+                <div class="row">
+                    <div class="element">
+                        <p>Typeface</p>
+                        <label for="combobox"></label>
+                        <select id="combobox">
+                            <option selected>Acunim Pro</option>
+                            <option>Comic Sans</option>
+                            <option disabled>Times New Roman</option>
+                        </select>
+                    </div>
+
+                    <div class="element">
+                        <p>Dark UI</p>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="checkbox" class="checkbox">
+                            <label for="checkbox" class="checkbox-label"></label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="element">
+                        <p>Weight</p>
+                        <input type="checkbox" id="checkbox1" class="check2">
+                        <label for="checkbox1" class="space">Regular</label>
+                        <input type="checkbox" id="checkbox2" class="check2">
+                        <label for="checkbox2" class="space">Bold</label>
+                    </div>
+
+                    <div class="element">
+                        <p>Color</p>
+                        <div class="color">
+                            <div class="color-box">
+                                <input type="checkbox" id="blue" class="check3">
+                                <label for="blue"></label>
+                            </div>
+
+                            <div class="color-box">
+                                <input type="checkbox" id="green" class="check3">
+                                <label for="green"></label>
+                            </div>
+
+                            <div class="color-box">
+                                <input type="checkbox" id="pink" class="check3">
+                                <label for="pink"></label>
+                            </div>
+
+                            <div class="color-box">
+                                <input type="checkbox" id="yellow" class="check3">
+                                <label for="yellow"></label>
+                            </div>
+
+                            <div class="color-box">
+                                <input type="checkbox" id="orange" class="check3">
+                                <label for="orange"></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="size">
+                        <label for="range">Size</label>
+                        <input type="range" id="range" min="1" max="30" step="1" value="1">
+                        <div class="size-box">
+                            <p id="small">A</p>
+                            <p id="big">A</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <img src="assets/images/artistic-brush.png" alt="Brush">
+                    <img src="assets/images/computer-screen.png" alt="Screen">
+                    <img src="assets/images/sms-speech-bubble.png" alt="Bubble">
+                    <img src="assets/images/user-icon.png" alt="User">
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

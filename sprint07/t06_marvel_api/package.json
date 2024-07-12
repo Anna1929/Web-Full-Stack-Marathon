@@ -1,0 +1,12 @@
+{
+  "name": "t06_marvel_api",
+  "version": "1.0.0",
+  "description": "A simple web app to display data from the Marvel API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

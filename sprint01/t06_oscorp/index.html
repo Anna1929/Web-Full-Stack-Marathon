@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>MangaShop</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="description" content="t06. Oscorp">
+    </head>
+
+    <body>
+        <header>
+            <a href="#" class="logo">MangaShop</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Service</a></li>
+                    <li><a href="index.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div id="search">
+                <input type="text" placeholder="Search">
+            </div>
+
+            <div id="phone">
+                <p>Phone: +1234567890</p>
+            </div>
+        </header>
+
+        <div id="breadcrumbs">
+            <p id="home"><a href="index.html">Home</a></p>
+            <p>/</p>
+            <p><a href="index.html">Catalog</a></p>
+        </div>
+
+        <main>
+            <div class="filters">
+                <h2>Filters</h2>
+                <form>
+                    <fieldset>
+                        <legend>Genres</legend>
+                        <div class="box">
+                            <input type="checkbox" id="genre1">
+                            <label for="genre1">Fantasy</label>
+                        </div>
+
+                        <div class="box">
+                            <input type="checkbox" id="genre2">
+                            <label for="genre2">Adventure</label>
+                        </div>
+
+                        <div class="box">
+                            <input type="checkbox" id="genre3">
+                            <label for="genre3">Romance</label>
+                        </div>
+
+                        <div class="box">
+                            <input type="checkbox" id="genre4">
+                            <label for="genre4">Horror</label>
+                        </div>
+
+                        <div class="box">
+                            <input type="checkbox" id="genre5">
+                            <label for="genre5">Comedy</label>
+                        </div>
+
+                        <div class="box">
+                            <input type="checkbox" id="genre6">
+                            <label for="genre6">Drama</label>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Authors</legend>
+                        <div class="box">
+                            <input type="checkbox" id="author1">
+                            <label for="author1">Hiromu Arakawa</label>
+                        </div>
+
+                        <div class="box">
+                            <input type="checkbox" id="author2">
+                            <label for="author2">Eiichiro Oda</label>
+                        </div>
+
+                        <div class="box">
+                            <input type="checkbox" id="author3">
+                            <label for="author3">Hayao Miyazaki</label>
+                        </div>
+
+                        <div class="box">
+                            <input type="checkbox" id="author4">
+                            <label for="author4">Takeshi Obata</label>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Price</legend>
+                        <div class="box">
+                            <label for="price"></label>
+                            <input type="range" id="price" min="1" max="1000" step="1" value="1">
+                            <div class="numbers">
+                                <p>1</p>
+                                <p>1000</p>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+
+            <div class="catalog">
+                <h2>Catalog</h2>
+                <div id="pages">
+                    <label for="page">Page:</label>
+                    <select class="page" id="page">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+
+                <div class="group">
+                    <div class="item">
+                        <a href="card.html">
+                            <img src="assets/images/m1.jpg" alt="Manga">
+                            <h3>Idol of Child. Vol. 1</h3>
+                            <p class="price-manga">Price: $12</p>
+                            <p class="available">Available</p>
+                        </a>
+                        <button>BUY</button>
+                    </div>
+
+                    <div class="item">
+                        <a href="card.html">
+                            <img src="assets/images/m2.jpg" alt="Manga">
+                            <h3>Rascal Does Not Dream of<br>Bunny Girl Senpai. Vol. 1</h3>
+                            <p class="price-manga">Price: $15</p>
+                            <p class="available">Available</p>
+                        </a>
+                        <button>BUY</button>
+                    </div>
+
+                    <div class="item">
+                        <a href="card.html">
+                            <img src="assets/images/m3.jpg" alt="Manga">
+                            <h3>Kaichou wa Maid-sama. Vol. 1</h3>
+                            <p class="price-manga">Price: $10</p>
+                            <p class="available">Available</p>
+                        </a>
+                        <button>BUY</button>
+                    </div>
+
+                    <div class="item">
+                        <a href="card.html">
+                            <img src="assets/images/m4.jpg" alt="Manga">
+                            <h3>Fairy Tail. Vol. 1</h3>
+                            <p class="price-manga">Price: $20</p>
+                            <p class="available">Available</p>
+                        </a>
+                        <button>BUY</button>
+                    </div>
+
+                    <div class="item">
+                        <a href="card.html">
+                            <img src="assets/images/m5.jpg" alt="Manga">
+                            <h3>Attack on Titan. Vol. 1</h3>
+                            <p class="price-manga">Price: $25</p>
+                            <p class="available">Available</p>
+                        </a>
+                        <button>BUY</button>
+                    </div>
+
+                    <div class="item">
+                        <a href="card.html">
+                            <img src="assets/images/m6.jpg" alt="Manga">
+                            <h3>A Silent Voice. Vol. 1</h3>
+                            <p class="price-manga">Price: $13</p>
+                            <p class="available">Available</p>
+                        </a>
+                        <button>BUY</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div id="foot">
+                <p>Copyright © 2021 | MANGASHOP | All Rights Reserved</p>
+                <p>Terms of Service | Privacy Policy</p>
+            </div>
+        </footer>
+    </body>
+</html>

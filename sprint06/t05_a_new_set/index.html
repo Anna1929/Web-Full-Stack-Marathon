@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>A new set</title>
+        <meta name="description" content="t05. A new set">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>New Avenger application</h1>
+        <div id="back">
+            <p>POST</p>
+            <p id="result"></p>
+        </div>
+        <form id="form">
+            <fieldset>
+                <legend>About candidate</legend>
+                <p>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Tell your name" size="10" autofocus required>
+                    <label for="email">E-mail</label>
+                    <input type="text" id="email" name="email" placeholder="Tell your e-mail" size="15" required>
+                    <label for="age">Age</label>
+                    <input type="number" id="age" name="age" min="1" max="999" step="1" required><br><br>
+                    <label for="about">About</label>
+                    <textarea id="about" name="about" rows="5" cols="70" maxlength="500"
+                              placeholder="Tell about yourself, max 500 symbols" required></textarea><br><br>
+                    <label for="photo">Your photo:</label>
+                    <input type="file" id="photo" name="photo" required>
+                </p>
+            </fieldset>
+            <p>
+                <button type="reset">CLEAR</button>
+                <button type="submit">SEND</button>
+            </p>
+        </form>
+    </body>
+    <script src="script.js"></script>
+</html>

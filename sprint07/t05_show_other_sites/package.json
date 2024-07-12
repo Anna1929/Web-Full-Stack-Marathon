@@ -1,0 +1,8 @@
+{
+  "name": "t05_show_other_sites",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

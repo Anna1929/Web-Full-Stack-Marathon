@@ -1,0 +1,36 @@
+.main {
+    display: flex;
+    align-items: center;
+}
+
+.weather {
+    display: inline-block;
+    margin-right: 5px;
+    text-align: center;
+    width: 140px;
+    height: 160px;
+}
+
+.weather:hover {
+    box-shadow: 0 0 6px 4px grey;
+}
+
+.data {
+    background-color: #4568dc;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5em;
+    font-family: "Lato Bold", sans-serif;
+}
+
+.temperature {
+    align-items: center;
+    font-size: 2em;
+    font-weight: 400;
+    font-family: "Lato Ragular", sans-serif;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}

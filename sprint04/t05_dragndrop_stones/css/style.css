@@ -1,0 +1,22 @@
+.main {
+    position: relative;
+}
+
+.box {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.yellow { background-color: yellow; }
+.blue { background-color: blue; }
+.green { background-color: green; }
+.red { background-color: red; }
+.pink { background-color: pink; }
+.purple { background-color: purple; }
+
+.off {
+    border: 2px dashed black;
+}
